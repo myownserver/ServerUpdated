@@ -15,7 +15,7 @@ jobs:
       run: |
             git config --global user.name "myownmagicserver"
             git config --global user.email "myowntechuniverse@gmail.com"
-            git clone https://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@github.com/myownmagicserver/TataSkyIPTV-Daily
+            git clone https://ghp_bk60Mc9zdsgsdgsg@github.com/myownmagicserver/TataSkyIPTV-Daily
             cd TataSkyIPTV-Daily/
             cd code_samples/
             curl -s 'https://raw.githubusercontent.com/Shra1V32/TataSky-Playlist-AutoUpdater/main/dependencies/post_script.exp' > script.exp &
@@ -23,7 +23,7 @@ jobs:
             chmod 755 *
             sudo apt install expect -y
             ./script.exp
-            git clone https://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@gist.github.com/94c26612e6c6d340dcd4cdff996e7df6
+            git clone https://ghp_bk60Mc9zdsgsdgsg@gist.github.com/94c26612e6c6d340dcd4cdff996e7df6
             rm 94c26612e6c6d340dcd4cdff996e7df6/allChannelPlaylist.m3u
             mv *.m3u 94c26612e6c6d340dcd4cdff996e7df6/
             cd 94c26612e6c6d340dcd4cdff996e7df6
